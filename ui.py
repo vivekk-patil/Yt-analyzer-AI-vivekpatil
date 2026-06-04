@@ -140,6 +140,7 @@ if video_url and analyze:
 # ── Footer ────────────────────────────────────────────────
 st.markdown(f"""
 <div class='footer'>
+    Made with ❤️ by <strong>Vivek Patil</strong> &nbsp;|&nbsp;
     <a href='mailto:vivekp9356@gmail.com'>📧 vivekp9356@gmail.com</a>
 </div>
 """, unsafe_allow_html=True)
