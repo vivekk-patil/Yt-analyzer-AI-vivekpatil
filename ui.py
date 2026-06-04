@@ -9,7 +9,7 @@ st.set_page_config(
 
 # ── Theme Toggle ──────────────────────────────────────────
 if "dark_mode" not in st.session_state:
-    st.session_state.dark_mode = True
+    st.session_state.dark_mode = False
 
 def toggle_theme():
     st.session_state.dark_mode = not st.session_state.dark_mode
@@ -140,9 +140,6 @@ if video_url and analyze:
 # ── Footer ────────────────────────────────────────────────
 st.markdown(f"""
 <div class='footer'>
-    Made with ❤️ by <strong>Vivek Patil</strong> &nbsp;|&nbsp;
-    <a href='https://github.com/vivekk-patil' target='_blank'>GitHub</a>
-    &nbsp;|&nbsp;
-    <a href='https://linkedin.com/in/vivekpatil' target='_blank'>LinkedIn</a>
+    <a href='mailto:vivekp9356@gmail.com'>📧 vivekp9356@gmail.com</a>
 </div>
 """, unsafe_allow_html=True)
