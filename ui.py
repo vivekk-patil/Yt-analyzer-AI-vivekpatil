@@ -147,6 +147,6 @@ st.markdown(f"""
     color: #666;
     font-size: 14px;
 ">
-    © 2026 YouTube Video Analyzer | Developed by Vivek Patil
+    © 2026 YouTube Video Analyzer | Developed by Vivek Satish Patil
 </footer>
 """, unsafe_allow_html=True)
