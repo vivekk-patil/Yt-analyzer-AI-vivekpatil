@@ -139,8 +139,14 @@ if video_url and analyze:
 
 # ── Footer ────────────────────────────────────────────────
 st.markdown(f"""
-<div class='footer'>
-    Made with ❤️ by <strong>Vivek Patil</strong> &nbsp;|&nbsp;
-    <a href='mailto:vivekp9356@gmail.com'>📧 vivekp9356@gmail.com</a>
-</div>
+<footer style="
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    color: #666;
+    font-size: 14px;
+">
+    © 2026 AI Assistant | Developed by Vivek Patil
+</footer>
 """, unsafe_allow_html=True)
